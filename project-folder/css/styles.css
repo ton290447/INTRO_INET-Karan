@@ -1,0 +1,81 @@
+.body {
+    background-color: #f0dbc6;
+}
+
+tr, th, td {
+    text-align: center;
+}
+
+td.text {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+td.text_bold {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+div.gallery {
+    background-color: rgb(172, 172, 172);
+    margin: 5%;
+    border: 5px solid rgb(179, 172, 172);
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+div.gallery:hover {
+  border: 10px solid #fda500;
+}
+
+div.text_num {
+    color: rgb(231, 59, 16);
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px
+}
+div.text_num:hover {
+    color: rgb(20, 6, 219);
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px
+}
+
+table {
+    width: 65%;
+    border: 5px solid;
+    margin: auto;
+    table-layout: fixed;
+}
+
+table.table_sub {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-top: 5%;
+}
+
+h3.text_sub {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+table tr.head_sub {
+    background-color: #ebb47d9d;
+}
+
+td.payment {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(37, 155, 1);
+}
