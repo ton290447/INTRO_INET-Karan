@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid black;
+}
+
+.items {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
